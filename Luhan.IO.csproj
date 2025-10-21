@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <PackageId>Luhan.IO</PackageId>
-      <Version>1.0.3</Version>
+      <Version>1.0.4</Version>
       <Authors>Omar Luhan</Authors>
     <Company>Luhan Techlonolgy</Company>
     <Description>Una biblioteca sencilla para imprimir y registrar mensajes con color en consola.</Description>
