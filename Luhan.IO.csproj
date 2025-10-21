@@ -6,16 +6,18 @@
     <Nullable>enable</Nullable>
       <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
       <PackageId>Luhan.IO</PackageId>
-      <Version>1.0.1</Version>
+      <Version>1.0.3</Version>
       <Authors>Omar Luhan</Authors>
     <Company>Luhan Techlonolgy</Company>
     <Description>Una biblioteca sencilla para imprimir y registrar mensajes con color en consola.</Description>
     <PackageTags>console log print color</PackageTags>
     <RepositoryUrl>https://github.com/OmarLuhan/Luhan.IO.git</RepositoryUrl>
       <RepositoryType>git</RepositoryType>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
     <ItemGroup>
-        <None Include="GlobalUsings.cs" Pack="true" PackagePath="buildTransitive\" />
+        <!-- El archivo .props que se importará automáticamente -->
+        <None Include="Luhan.IO.props" Pack="true" PackagePath="buildTransitive\" />
+        <None Include="README.md" Pack="true" PackagePath="" />
     </ItemGroup>
-
 </Project>
