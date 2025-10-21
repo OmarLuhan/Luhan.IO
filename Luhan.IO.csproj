@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Luhan.IO</PackageId>
+    <Company>Luhan</Company>
+    <Description>Una biblioteca sencilla para imprimir y registrar mensajes con color en consola.</Description>
+    <PackageTags>console log print color</PackageTags>
+    <RepositoryUrl>https://github.com/OmarLuhan/Luhan.IO.git</RepositoryUrl>
+  </PropertyGroup>
+</Project>
