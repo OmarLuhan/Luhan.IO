@@ -1,2 +1,2 @@
 # Luhan.IO
-- Printf("hello word");
+  ![Luhan.IO logo](icon.png)
