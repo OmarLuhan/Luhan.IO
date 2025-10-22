@@ -1,23 +1,32 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
 
-  <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-      <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-      <PackageId>Luhan.IO</PackageId>
-      <Version>1.0.5</Version>
-      <Authors>Omar Luhan</Authors>
-    <Company>Luhan Techlonolgy</Company>
-    <Description>Una biblioteca sencilla para imprimir y registrar mensajes con color en consola.</Description>
-    <PackageTags>console log print color</PackageTags>
-    <RepositoryUrl>https://github.com/OmarLuhan/Luhan.IO.git</RepositoryUrl>
-      <RepositoryType>git</RepositoryType>
-      <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
+        <!-- Configuración de paquete -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Luhan.IO</PackageId>
+        <Version>1.0.6</Version>
+        <Authors>Omar Luhan</Authors>
+        <Company>Luhan Technology</Company>
+        <Description>Una biblioteca sencilla para imprimir y registrar mensajes con color en consola.</Description>
+        <PackageTags>console;log;color;output;utility</PackageTags>
+        <RepositoryUrl>https://github.com/OmarLuhan/Luhan.IO.git</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageProjectUrl>https://github.com/OmarLuhan/Luhan.IO</PackageProjectUrl>
+        <PackageReleaseNotes>Compatibilidad con .NET 9 y nuevas utilidades de consola.</PackageReleaseNotes>
+
+        <!-- Licencia y recursos -->
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>icon.png</PackageIcon>
+    </PropertyGroup>
+
     <ItemGroup>
-        <!-- Asegura que el .props se incluya y se aplique automáticamente -->
         <Content Include="Luhan.IO.props" Pack="true" PackagePath="buildTransitive" />
         <None Include="README.md" Pack="true" PackagePath="" />
+        <None Include="icon.png" Pack="true" PackagePath="" />
     </ItemGroup>
+
 </Project>

@@ -1,1 +1,1 @@
-global using static Luhan.IO.IO;
+global using static Luhan.IO.Io;

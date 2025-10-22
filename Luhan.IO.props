@@ -1,5 +1,5 @@
 <Project>
     <ItemGroup>
-        <Using Include="static Luhan.IO.IO" />
+        <Using Include="Luhan.IO.Io" Static="true" Alias="" />
     </ItemGroup>
 </Project>

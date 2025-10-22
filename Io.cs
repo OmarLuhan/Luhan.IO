@@ -1,6 +1,6 @@
 ﻿namespace Luhan.IO;
 
-public static class IO
+public static class Io
 {
     public static void Printf(object? value)
     {
